@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        #story {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        #story h2 {
+            margin-top: 30px;
+            padding: 10px;
+            color: white;
+            font-weight: normal;
+            background-color: green;
+        }
+
+        .col1 {
+            width: 220px;
+            float: left;
+            margin-top: 50px;
+            border: solid 1px red;
+        }
+
+        .col2 {
+            width: 550px;
+            float: right;
+            margin-top: 50px;
+            border: solid 1px blue;
+        }
+
+        #story h3 {
+            font-size: 22px;
+        }
+
+        #moto {
+            margin-top: 30px;
+            font-size: 30px;
+        }
+
+        #prize {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .image {
+            float: left;
+            border: solid 1px skyblue;
+        }
+
+        img {
+            width: 200px;
+        }
+
+        .text {
+            float: right;
+            border: solid 1px aqua;
+        }
+
+        .items li {
+            display: inline-block;
+        }
+
+        .date {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .comment {
+            width: 250px;
+            font-size: 18px;
+            margin: 0 0 20px 10px;
+            border-bottom: solid 1px grey;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div id="story">
+            <h2>기업 연혁</h2>
+            <div class="col1">
+                <h3>2018 ~ 현재</h3>
+                <p id="moto">환경과 사람을<br> 존중하는 기업<br> '환경 사랑'</p>
+                <p id="prize">환경 관련 우수기업<br> 대통령상을 수상하다.</p>
+            </div>
+            <!--col1-->
+
+            <div class="col2">
+                <div class="image">
+                    <img src="../example/img/sana.jpg">
+                </div>
+                <!--image-->
+                <div class="text">
+                    <ul>
+                        <li class="items">
+                            <ul>
+                                <li class="date">2021</li>
+                                <li class="comment"> 환경사랑 수원 전시장 오픈</li>
+                            </ul>
+                        </li>
+                        <li class="items">
+                            <ul>
+                                <li class="date">2020</li>
+                                <li class="comment"> 환경사랑 광주 전시장 오픈</li>
+                            </ul>
+                        </li>
+                        <li class="items">
+                            <ul>
+                                <li class="date">2019</li>
+                                <li class="comment"> 환경사랑 대전 전시장 오픈</li>
+                            </ul>
+                        </li>
+                        <li class="items">
+                            <ul>
+                                <li class="date">2018</li>
+                                <li class="comment"> 환경사랑 서울 전시장 오픈</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!--text-->
+            </div>
+            <!--col2-->
+        </div>
+        <!--story-->
+    </section>
+</body>
+
+</html>

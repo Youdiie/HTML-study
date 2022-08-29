@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent {
+            width: 350px;
+            height: 200px;
+            position: relative;
+            border: solid 1px red;
+            padding: 90px 0 0 60px;
+        }
+
+        #b {
+            position: fixed;
+            left: 30px;
+            top: 30px;
+        }
+
+        #a,
+        #b,
+        #c {
+            width: 100px;
+            height: 60px;
+            background-color: yellow;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>고정(position:fixed)</h3>
+    <div id="parent">
+        <div id="a">요소 A</div>
+        <div id="b">요소 B</div>
+        <div id="c">요소 C</div>
+    </div>
+</body>
+
+</html>
