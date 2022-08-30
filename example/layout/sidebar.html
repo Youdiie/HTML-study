@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .box {
+            width: 1100px;
+            margin: 0 auto;
+        }
+
+        aside {
+            width: 220px;
+            float: left;
+            margin: 70px 0;
+        }
+
+        aside .title1 {
+            padding: 12px;
+            background-color: rgb(0, 212, 124);
+            font-weight: bold;
+            color: white;
+            font-size: 18px;
+        }
+
+        aside .comment {
+            padding: 20px 10px;
+            line-height: 150%;
+        }
+
+        aside .search input {
+            width: 160px;
+            height: 32px;
+            border: solid 1px black;
+            vertical-align: top;
+        }
+
+        aside .search button {
+            margin-left: 5px;
+            padding: 6px 10px;
+            border: solid 1px black;
+        }
+
+        /* 베이킹/요리 */
+        aside .title2 {
+            margin-top: 20px;
+            padding: 12px;
+            border-top: 2px solid #000;
+            border-bottom: 1px solid grey;
+            font-size: 18px;
+        }
+
+        aside .list {
+            margin: 20px 0;
+        }
+
+        aside .list li {
+            margin: 10px 12px;
+        }
+
+        /* 최근 댓글 */
+        aside .ripple {
+            border: solid 1px rgb(0, 212, 124);
+            padding: 12px;
+        }
+
+        aside .ripple h2 {
+            font-size: 18px;
+            margin: 10px 0 15px 0;
+        }
+
+        aside .ripple li {
+            margin-top: 6px;
+        }
+
+        #main {
+            width: 840px;
+            float: right;
+            margin: 70px 0;
+            border: dotted 1px red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <aside>
+            <h2 class="title1">The 베이킹</h2>
+            <p class="comment">안녕하세요. 쿠키와 빵 만들기 정보를
+                공유하고 소통하는 공간입니다.
+            </p>
+            <div class="search"><input type="text"><button>검색</button></div>
+
+            <h2 class="title2">베이킹/요리</h2>
+            <ul class="list">
+                <li>쿠키 만들기</li>
+                <li>빵 만들기</li>
+                <li>마카롱 만들기</li>
+            </ul>
+
+            <div class="ripple">
+                <h2>최근 댓글</h2>
+                <ul>
+                    <li>빵조아</li>
+                    <li>초코빵쥬세요</li>
+                    <li>죽빵</li>
+                </ul>
+            </div>
+        </aside>
+
+        <section id="main">
+            메인 섹션
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .box {
+            width: 980px;
+            margin: 0 auto;
+            border: solid 1px blue;
+        }
+
+        header {
+            border: solid 1px red;
+            padding-bottom: 50px;
+        }
+
+        header #left_menu {
+            float: left;
+            border: solid 1px red;
+        }
+
+        header #right_menu {
+            float: right;
+            border: solid 1px red;
+        }
+
+        section #main_image {
+            clear: both;
+            height: 200px;
+            border: solid 1px red;
+        }
+
+        section #product_list {
+            height: 300px;
+            border: solid 1px red;
+        }
+
+        footer #footer1 {
+            border: solid 1px red;
+            padding: 0 0 70px 0;
+        }
+
+        footer #footer2 {
+            border: solid 1px red;
+            padding: 0 0 70px 0;
+        }
+
+        footer #footer3 {
+            border: solid 1px red;
+            padding: 0 0 70px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="box">
+            <nav id="left_menu">좌측 메뉴</nav>
+            <nav id="right_menu">우측 메뉴</nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="box">
+            <div id="main_image">메인 이미지</div>
+            <div id="product_list">상품 리스트</div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer1">
+            <div class="box">푸터1</div>
+        </div>
+        <div id="footer2">
+            <div class="box">푸터2</div>
+        </div>
+        <div id="footer3">
+            <div class="box">푸터3</div>
+        </div>
+    </footer>
+</body>
+
+</html>
