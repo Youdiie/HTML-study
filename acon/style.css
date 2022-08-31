@@ -116,3 +116,41 @@ a:active {
 #main_menu img {
     width: 20px;
 }
+
+/* main_image */
+#main_image {
+    background-image: url("./img/e6a99d4909bef9b636a2e3557810d5c6_95857.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-color: rgb(242, 239, 244);
+    border-top: 1px solid rgb(228, 228, 228);
+}
+
+/* main */
+/* top_main */
+#top_main {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 31px 0 31px;
+}
+
+#top_main .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top_main .icon img {
+    border: 1px solid rgb(228, 228, 228);
+    width: 65px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(244, 244, 244);
+}
+
+#top_main .icon .text {
+    margin-top: 15px;
+    font-size: 14px;
+}
