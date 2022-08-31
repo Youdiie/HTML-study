@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .box {
+            width: 1100px;
+            margin: 0 auto;
+        }
+
+        #logo {
+            float: left;
+            margin: 80px 0 0 60px;
+        }
+
+        #menu {
+            float: right;
+            margin-right: 20px;
+        }
+
+        #top_menu {
+            color: gray;
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        #top_menu li {
+            display: inline-block;
+            margin-left: 10px;
+
+        }
+
+        #main_menu {
+            margin-top: 60px;
+            width: 700px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            /* border: solid 1px red; */
+        }
+
+        #main_menu .item {
+            /* margin-left: 100px; */
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="box">
+            <div id="logo">
+                <img src="./img/logo.png">
+            </div>
+            <nav id="menu">
+                <ul id="top_menu">
+                    <li>김유진(youjin)님</li>
+                    <li>|</li>
+                    <li>로그아웃</li>
+                    <li>|</li>
+                    <li>정보수정</li>
+                </ul>
+                <!-- <ul id="main_menu">
+                    <li>Home</li>
+                    <li>출석부</li>
+                    <li>작품갤러리</li>
+                    <li>게시판</li>
+                </ul> -->
+                <div id="main_menu">
+                    <div class="item">Home</div>
+                    <div class="item">출석부</div>
+                    <div class="item">작품갤러리</div>
+                    <div class="item">게시판</div>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+
+</html>
