@@ -368,18 +368,24 @@ footer #top_menu {
 footer #top_menu #menu_bar {
     display: flex;
     flex-direction: row;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+
+
 }
 
 footer #top_menu #menu_bar a {
-    font-size: 14px;
-    font-weight: 500;
+    display: block;
     text-decoration: none;
+    font-weight: bold;
     padding: 0 16px;
+    color: rgb(83, 83, 83);
     border-right: solid 1px rgb(228, 228, 228);
 }
 
 footer #top_menu #icons {
     width: 128px;
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -412,8 +418,8 @@ footer #info {
     color: rgb(124, 124, 124);
 }
 
-footer #info img {
-    margin-bottom: 20px;
+footer #info #image {
+    margin-bottom: 25px;
 }
 
 footer #info #info1 {
@@ -439,4 +445,5 @@ footer #info #info2 div {
 
 footer #info #copy {
     font-weight: bold;
+    margin-bottom: 10px;
 }
