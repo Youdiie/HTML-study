@@ -362,6 +362,12 @@ footer #footer_border {
 footer #top_menu {
     padding: 15px 30px;
     align-items: center;
+
+}
+
+footer #top_menu #menu_bar {
+    display: flex;
+    flex-direction: row;
 }
 
 footer #top_menu #menu_bar a {
@@ -399,7 +405,7 @@ footer #top_menu #language select {
 }
 
 footer #info {
-    padding: 54px 30px 91px 30px;
+    padding: 54px 31px 91px 31px;
     display: flex;
     flex-direction: column;
     font-size: 11px;
@@ -414,6 +420,7 @@ footer #info #info1 {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 footer #info #info1 div {
