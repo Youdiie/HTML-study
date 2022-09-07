@@ -353,28 +353,27 @@ footer {
     background-color: rgb(248, 248, 248);
 }
 
-footer #footer_border {
+.footer_border {
     border-color: rgb(228, 228, 228);
     border-style: solid;
     border-width: 1px 0;
 }
 
-footer #top_menu {
+.top-menu {
     padding: 15px 30px;
     align-items: center;
-
+    display: flex;
+    flex-direction: row;
 }
 
-footer #top_menu #menu_bar {
+.top-menu__menu-bar {
     display: flex;
     flex-direction: row;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 14px;
-
-
 }
 
-footer #top_menu #menu_bar a {
+.top-menu__menu-bar a {
     display: block;
     text-decoration: none;
     font-weight: bold;
@@ -383,7 +382,7 @@ footer #top_menu #menu_bar a {
     border-right: solid 1px rgb(228, 228, 228);
 }
 
-footer #top_menu #icons {
+.top-menu__icons {
     width: 128px;
     margin-left: 30px;
     display: flex;
@@ -392,14 +391,14 @@ footer #top_menu #icons {
     align-items: center;
 }
 
-footer #top_menu #language {
+.top-menu__language {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 20px;
 }
 
-footer #top_menu #language select {
+.top-menu__language select {
     vertical-align: bottom;
     border: rgb(168, 168, 168);
     margin-left: 13px;
@@ -410,7 +409,7 @@ footer #top_menu #language select {
     height: 30px;
 }
 
-footer #info {
+.info {
     padding: 54px 31px 91px 31px;
     display: flex;
     flex-direction: column;
@@ -418,32 +417,32 @@ footer #info {
     color: rgb(124, 124, 124);
 }
 
-footer #info #image {
+.info__logo {
     margin-bottom: 25px;
 }
 
-footer #info #info1 {
+.info__nav1 {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-footer #info #info1 div {
+.info__nav1 div {
     margin-right: 12px;
 }
 
-footer #info #info2 {
+.info__nav2 {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
 }
 
-footer #info #info2 div {
+.info__nav2 div {
     margin-right: 12px;
 }
 
-footer #info #copy {
+.info__copy {
     font-weight: bold;
     margin-bottom: 10px;
 }
