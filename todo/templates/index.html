@@ -13,7 +13,7 @@
     <ul>
         {% for todo in todos %}
         {% if todo != "Sana" %}
-        <li>{{todo}}</li>
+        <li>{{loop.index}} {{todo}}</li>
         {% endif %}
         {% endfor %}
     </ul>
